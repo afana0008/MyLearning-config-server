@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
